@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "iragino UD Sans W6 JIS2004", sans-serif;
+}
+
+.container {
+  padding: 0 40px 0 40px;
+  margin: 0 0 0 0;
+}
+/* ヘッダー */
+
+header {
+  background-color: #fff;
+  margin: 0 0 0 0;
+}
+header > .container {
+  height:72px;
+  display: flex;
+  align-items: center;
+  margin: 0 0;
+  padding: 0 90px 0 90px;
+}
+
+/* ロゴ */
+.area_logo_header .logo {
+  display: block;
+}
+.area_logo_header .logo img {
+  height: 26px;
+  vertical-align: baseline;
+}
+
+/* ナビゲーション */
+.area_nav_header {
+  margin-left: auto;
+}
+
+/* リストナビ */
+.list_nav_header {
+  display: flex;
+  align-items: center;
+  /* vertical-align: baseline; */
+  font-weight: bold;
+  list-style: none;
+}
+/* リストナビ全体の位置 */
+.list_nav_header > li + li {
+  margin-left: 27px;
+}
+/* 言語切り替え */
+.language {
+  font-weight: normal;
+}
+/* リストナビの文字装飾 */
+.list_nav_header a {
+  color: #1e1e1e;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0 0 0 15px;
+}
+/* リストナビの上にカーソルが乗った時の装飾 */
+.list_nav_header a :hover {
+  text-decoration: underline;
+}
+
+/* クラシコムについてのページ */
+
+/* 共通 */
+/* ヘッダー以外の画面全体 */
+#all_contents {
+  background-color:#fafafa;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* タイトルとサブタイトルの枠 */
+.title{
+  padding: 0 220px 50px 220px;
+  box-sizing: border-box;
+}
+/* タイトルの装飾 */
+.h1_02 {
+  font-size: 50px;
+  letter-spacing: 8px;
+  margin: 0 0 0 0;
+  position: relative;
+  top: 75px;
+  left: 55px;
+}
+/* サブタイトルの装飾 */
+.sab_heading_02 {
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: right;
+  font-weight: bold;
+  position: relative;
+  top: 70px;
+  right: 50px;
+  border-bottom: solid 1px #1e1e1e;
+  padding-bottom: 5px;
+}
+
+/* 本文の装飾 */
+.p_02 {
+  font-weight: normal;
+  line-height: 1.8;
+}
+/* 見出しと本文の位置の装飾 */
+.messages_02 {
+  /* text-align: center; */
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+
+
+/* アバウト */
+/* 代表メッセージ　の枠 */
+.h1_01 {
+  font-size: 72px;
+  letter-spacing: 8px;
+  margin: 0 0 0 0;
+  position: relative;
+  top: 75px;
+  left: 55px;
+}
+
+.sab_heading_01 {
+  font-size: 19px;
+  letter-spacing: 1px;
+  text-align: right;
+  font-weight: bold;
+  position: relative;
+  top: 80px;
+  padding-right: 70px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.messages_01 {
+  padding: 0 220px 0 220px;
+  margin-top: 50px;
+}
+
+.president_messages_bold {
+  font-weight: bold; 
+  font-size: 18px;
+  position: relative;
+  left: 57px;
+  top: 62px;
+}
+
+.p_01 {
+  font-weight: normal;
+  position: relative;
+  left: 57px;
+  line-height: 1.8;
+}
+
+
+/* 代表の顔写真 */
+.img2 {
+  position: relative;
+  top: 12%;
+  right: 65%;
+  width: 450px;
+  height: 351px;
+}
+.img3 {
+  display: block; 
+  margin: auto auto;
+  width: 62%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+/* ミッション */
+.caption {
+  font-size: 30px;
+  font-weight: bold; 
+  position: relative;
+  top: 10px;
+}
+
+
+
+
+
+@media  screen and (min-width:480px) {}
